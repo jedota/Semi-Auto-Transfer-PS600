@@ -19,6 +19,22 @@ This is an example cfg.json:
  
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/35560a6f-4906-4b18-9bfd-220024d034d5)
 
+Now we have some options how the images will be translated:
+
+
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/1dace6ca-cf4c-4d6d-a1cd-0b2b06f1ebd4)
+
+
+
+For the standard way, you just have to specfiy the input/output folders like this:
+
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/4cb70018-e815-4d5c-8646-ae13d4b8e116)
+
+Now the translated images are in the specified output folders, the names of the folders will be the same as you used in the cfg.json:
+
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/63462389-e2c6-4e22-afab-c5a925ea886c)
+
+
 
 
 
