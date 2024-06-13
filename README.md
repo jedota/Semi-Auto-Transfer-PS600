@@ -81,10 +81,7 @@ Now, the orgiinal images folder will be used to compare each FID.Score. Then you
 
 
 
-@MAX, explain all the protocols similar to PPT. All the files used must be included here (no database). please indicate how to use the Python function, and include examples of images, too.
-Goal: One person must be able to replicate all the processes only following this GitHub.
-
-
 
 # Citation
+https://github.com/mseitzer/pytorch-fid
 # Disclaimer
