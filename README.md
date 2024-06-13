@@ -73,10 +73,15 @@ so that the FID-Score can be calculated without errors. By default it will be 48
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/485c8245-2052-4ef1-b3bd-25370d2df15a)
 
+or with height/width specified
+
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/b24f36b9-2be1-4046-9e3d-baefae773b53)
+
+
+
 Now, the orgiinal images folder will be used to compare each FID.Score. Then your translated images base folder will be used to traverse all subfolders of this "base folder" and compare the current subfolder to the original images folder. After the calculations are done, the results will be saved in the specified JSON file.
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/79d67cb6-03a8-4df8-b229-6537f8af3d54)
-
 
 
 
