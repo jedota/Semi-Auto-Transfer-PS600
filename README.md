@@ -5,10 +5,15 @@ This scenario allows us to train in single and differential morphing Attacks.
 # The following steps must be followed:
 
 ### Step 1) Select 50 colour images and create a pdf.
-## Step 2) Print and Scan this pdf in a glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
-## Step 3) Segment each colour image from the scanned file.
-## Step 4) In order to isolate the texture
-## Step 5) Translating the base images with the desired textures
+
+### Step 2) Print and scan this pdf on glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
+
+### Step 3) Segment each colour image from the scanned file.
+
+### Step 4) In order to isolate the texture.
+
+### Step 5) Translating the base images with the desired textures.
+
 To transform your images use the "translate_all_textures_NC.py" from this repository.
 
 It is very important to specify the paths to the textures you want to use, for that we are going to use a cfg.json in which we will specify our textures and their path. 
