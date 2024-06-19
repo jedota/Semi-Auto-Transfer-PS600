@@ -1,20 +1,25 @@
 # texture-ps-hda
-This repository describes the process of simulating print/scan texture used to create print/scan version images from bona fide examples.
+This repository describes the process of simulating the handcrafted print/scan texture used to create print/scan version images automatically from bona fide examples.
+This scenario allows us to train in single and differential morphing Attacks.
 
 # The following steps must be followed:
 
-Step 1: Translating the base images with the desired textures
+Step 1) Select 50 colour images and create a pdf.
+Step 2) Print and Scan this pdf in a glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
+Step 3) Segment each colour image from the scanned file.
+Step 4) In order to isolate the texture
+Step 5) Translating the base images with the desired textures
 To transform your images use the "translate_all_textures_NC.py" from this repository.
 
 It is very important to specify the paths to the textures you want to use, for that we are going to use a cfg.json in which we will specify our textures and their path. 
-The JSON file contains one array "texture_sources", in which you will have to insert the name of your texture as well as the path where it is saved. 
+The JSON file contains one array, "texture_sources," in which you must insert the name of your texture and the path where it is saved. 
 
 
 This is an example cfg.json:
  
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/35560a6f-4906-4b18-9bfd-220024d034d5)
 
-In the TranslateTexture class you will find the "self.texture_dir", in which you have to insert the path to your cfg.json.
+In the TranslateTexture class, you will find the "self.texture_dir", in which you have to insert the path to your cfg.json.
 
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/98434cc4-75ea-45a8-b952-c1dc808adc96)
