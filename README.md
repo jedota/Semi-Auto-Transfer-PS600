@@ -10,11 +10,11 @@ This scenario allows us to train in single and differential morphing Attacks.
 
 ### Step 3) Segment each colour image from the scanned file.
 
-### Step 4) In order to isolate the texture.
+### Step 4) In order to isolate the texture, use the file XXXXXXX.py and.....
 
-### Step 5) Translating the base images with the desired textures.
+### Step 5) Translating the base images (which is the base image?) with the desired textures.
 
-To transform your images use the "translate_all_textures_NC.py" from this repository.
+To transform (what means transform in this context?) your images use the "translate_all_textures_NC.py" from this repository.
 
 It is very important to specify the paths to the textures you want to use, for that we are going to use a cfg.json in which we will specify our textures and their path. 
 The JSON file contains one array, "texture_sources," in which you must insert the name of your texture and the path where it is saved. 
