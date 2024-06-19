@@ -14,6 +14,9 @@ This scenario allows us to train in single and differential morphing Attacks.
 
 ### Step 4) In order to isolate the texture, use the file XXXXXXX.py and.....
 
+![Scann-colors](https://github.com/jedota/texture-ps-hda/assets/45126159/1068e3c2-3524-45bf-ae69-3f79531b7ad4)
+
+
 ### Step 5) Translating the base images (which is the base image?) with the desired textures.
 
 To transform (what means transform in this context?) your images use the "translate_all_textures_NC.py" from this repository.
