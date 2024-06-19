@@ -4,7 +4,7 @@ This scenario allows us to train in single and differential morphing Attacks.
 
 # The following steps must be followed:
 
-## Step 1) Select 50 colour images and create a pdf.
+### Step 1) Select 50 colour images and create a pdf.
 ## Step 2) Print and Scan this pdf in a glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
 ## Step 3) Segment each colour image from the scanned file.
 ## Step 4) In order to isolate the texture
