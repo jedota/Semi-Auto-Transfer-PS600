@@ -5,6 +5,8 @@ This scenario allows us to train in single and differential morphing Attacks.
 # The following steps must be followed:
 
 ### Step 1) Select 50 colour images and create a pdf.
+<img width="458" alt="texture example" src="https://github.com/jedota/texture-ps-hda/assets/45126159/51992695-5ca3-4d0c-a026-563fddad3e57">
+
 
 ### Step 2) Print and scan this pdf on glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
 
