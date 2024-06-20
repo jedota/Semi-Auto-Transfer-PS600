@@ -11,8 +11,11 @@ This scenario allows us to train in single and differential morphing Attacks.
 ### Step 2) Print and scan this pdf on glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
 
 ### Step 3) Segment each colour image from the scanned file.
+Using the file read_scaned_color.py you must ...
 
 ### Step 4) In order to isolate the texture, use the file XXXXXXX.py and.....
+
+Using the file Isolate_texture.py you must ....
 
 ![Scann-colors](https://github.com/jedota/texture-ps-hda/assets/45126159/1068e3c2-3524-45bf-ae69-3f79531b7ad4)
 
