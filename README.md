@@ -30,7 +30,7 @@ The JSON file contains one array, "texture_sources," in which you must insert th
 
 This is an example cfg.json:
  
-![image](https://github.com/jedota/texture-ps-hda/assets/171809025/35560a6f-4906-4b18-9bfd-220024d034d5)
+[[![image](https://github.com/jedota/texture-ps-hda/assets/171809025/35560a6f-4906-4b18-9bfd-220024d034d5)] [![image](https://github.com/jedota/texture-ps-hda/assets/171809025/98434cc4-75ea-45a8-b952-c1dc808adc96)]
 
 In the TranslateTexture class, you will find the "self.texture_dir", in which you have to insert the path to your cfg.json.
 
