@@ -18,6 +18,8 @@ Using the file read_scanned_color.py you must specify the input folder containin
 Here, we will extract the textures and by specifying the output path we can already organize them into their respective folder.
 
 Example for the scanned file:
+
+
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/b6ca9090-8474-4689-8ed7-fe7558a2b1c0)
 
 Segmenting the colours from the scanned files:
@@ -49,7 +51,7 @@ Result:
 ![Scann-colors](https://github.com/jedota/texture-ps-hda/assets/45126159/1068e3c2-3524-45bf-ae69-3f79531b7ad4)
 
 
-### Step 5) Translating the base images (which is the base image?) with the desired textures.
+### Step 5) Translating the images
 
 The goal of our transformation will be to "print" the image digitally. What we want to achieve is a replica of using a printer to print an image onto a paper.
 What we are doing now is basically printing the images we prepared onto a paper with a specific texture(for example bonne/glossy with either 300/600 dpi).
