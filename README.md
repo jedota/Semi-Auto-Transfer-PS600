@@ -10,19 +10,51 @@ This scenario allows us to train in single and differential morphing Attacks.
 
 ### Step 2) Print and scan this pdf on glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
 
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/15140247-ea72-4047-a94f-a3f70a20c084)
+
+
 ### Step 3) Segment each colour image from the scanned file.
-Using the file read_scaned_color.py you must ...
+Using the file read_scaned_color.py you must specify the input folder containing your textures and the output folder for your textures.
+Here, we will extract the textures and by specifying the output path we can already organize them into their respective folder.
 
-### Step 4) In order to isolate the texture, use the file XXXXXXX.py and.....
+Example for the scanned file:
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/b6ca9090-8474-4689-8ed7-fe7558a2b1c0)
 
-Using the file Isolate_texture.py you must ....
+Segmenting the colours from the scanned files:
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/fc79a9b2-0763-4c39-b2fc-fa88cb10bc05)
+
+Result:
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/c40c1588-4fbc-4bfc-b96a-f4188c1b9213)
+
+It is important to fix any error that occurs reading the images manually. As we can see in the image, some colours won't be read properly. 
+To avoid problems in the next steps we have to manually correct any image that is unknown. To correct these mistakes you have to check your original pdf
+and assign the right name to the textures.
+
+
+
+### Step 4) In order to isolate the texture, use the file isolate_texture.py and.....
+
+Using the file Isolate_texture.py you must specify the input and output path, as well as the method to isolate the textures. 
+For this example we use the method "mean".
+
+Using our folder which contains the images we read in Step 3, we can now isolate the textures.
+
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/04d525c2-b1e8-4410-aa50-7ebc0a87aad3)
+
+Result:
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/143a8809-b2b6-46be-81ee-871405882595)
+
+
 
 ![Scann-colors](https://github.com/jedota/texture-ps-hda/assets/45126159/1068e3c2-3524-45bf-ae69-3f79531b7ad4)
 
 
 ### Step 5) Translating the base images (which is the base image?) with the desired textures.
 
-To transform (what means transform in this context?) your images use the "translate_all_textures_NC.py" from this repository.
+The goal of our transformation will be to "print" the image digitally. What we want to achieve is a replica of using a printer to print an image onto a paper.
+What we are doing now is basically printing the images we prepared onto a paper with a specific texture(for example bonne/glossy with either 300/600 dpi).
+
+To transform your images use the "translate_all_textures_NC.py" from this repository.
 
 It is very important to specify the paths to the textures you want to use, for that we are going to use a cfg.json in which we will specify our textures and their path. 
 The JSON file contains one array, "texture_sources," in which you must insert the name of your texture and the path where it is saved. 
