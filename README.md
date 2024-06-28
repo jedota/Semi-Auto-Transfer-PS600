@@ -14,7 +14,7 @@ This scenario allows us to train in single and differential morphing Attacks.
 
 
 ### Step 3) Segment each colour image from the scanned file.
-Using the file read_scaned_color.py you must specify the input folder containing your textures and the output folder for your textures.
+Using the file read_scanned_color.py you must specify the input folder containing your textures and the output folder for your textures.
 Here, we will extract the textures and by specifying the output path we can already organize them into their respective folder.
 
 Example for the scanned file:
