@@ -77,7 +77,7 @@ Now we have some options for how the images will be translated:
 
 
 
-For the standard way, you just have to specfiy the input/output folders like this:
+For the standard way, you just have to specify the input/output folders like this:
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/4cb70018-e815-4d5c-8646-ae13d4b8e116)
 
@@ -116,7 +116,9 @@ G600:
 
 Step 2: Calculating the FID-Scores and storing them for later use
 
-For this step we need to use "calculatedFid,py". This implementation is based on https://github.com/mseitzer/pytorch-fid
+For this step, we need to use "calculatedFid.py". 
+This implementation is based on https://github.com/mseitzer/pytorch-fid.
+
 Here, you have to specify the folder containing the original images as well as the base folder of your translated images. If your images don't have the correct properties, they will also be transformed
 so that the FID-Score can be calculated without errors. By default it will be 480x360, if your images are already correctly translated you can change these values to match your own. Finally, you have to specify your JSON file path so that the results can be saved.
 
