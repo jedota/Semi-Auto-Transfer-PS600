@@ -119,9 +119,9 @@ G600:
 
 Step 2: Calculating the FID-Scores and storing them for later use
 
-For this step we need to use "calculatedFid,py". 
-Here you have to specify the folder containing the orignal images as well as the base folder of your translated images. If your images don't have the correct properties, they will also be transformed
-so that the FID-Score can be calculated without errors. By default it will be 480x360, if your images are already correctly translated you can change these values to match your own. Finally, you have to specify your JSON file path, so that the results can be saved.
+For this step we need to use "calculatedFid,py". This implementation is based on https://github.com/mseitzer/pytorch-fid
+Here, you have to specify the folder containing the original images as well as the base folder of your translated images. If your images don't have the correct properties, they will also be transformed
+so that the FID-Score can be calculated without errors. By default it will be 480x360, if your images are already correctly translated you can change these values to match your own. Finally, you have to specify your JSON file path so that the results can be saved.
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/485c8245-2052-4ef1-b3bd-25370d2df15a)
 
@@ -131,7 +131,7 @@ or with height/width specified
 
 
 
-Now, the orgiinal images folder will be used to compare each FID.Score. Then your translated images base folder will be used to traverse all subfolders of this "base folder" and compare the current subfolder to the original images folder. After the calculations are done, the results will be saved in the specified JSON file.
+Now, the original images folder will be used to compare each FID.Score. Then your translated images base folder will be used to traverse all subfolders of this "base folder" and compare the current subfolder to the original images folder. After the calculations are done, the results will be saved in the specified JSON file.
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/79d67cb6-03a8-4df8-b229-6537f8af3d54)
 
@@ -142,5 +142,6 @@ Now, the orgiinal images folder will be used to compare each FID.Score. Then you
 
 
 # Citation
-https://github.com/mseitzer/pytorch-fid
+
 # Disclaimer
+This method is for research purposes only. For any questions, send an email to juan.tapia-farias@h-da.de
