@@ -1,5 +1,5 @@
-# texture-ps-hda
-This repository describes the process of simulating the handcrafted print/scan texture used to create print/scan version images automatically from bona fide examples.
+# Texture-Transfer method
+This repository describes the complementary material for the paper: "Generating Automatically Print/Scan Textures for Morphing Attack Detection Applications". This process focuses on simulating the handcrafted print/scan texture used to create print/scan version images automatically from bona fide examples.
 This scenario allows us to train in single and differential morphing Attacks.
 
 # The following steps must be followed:
@@ -28,7 +28,7 @@ Segmenting the colours from the scanned files:
 Result:
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/c40c1588-4fbc-4bfc-b96a-f4188c1b9213)
 
-It is important to fix any error that occurs reading the images manually. As we can see in the image, some colours won't be read properly. 
+It is important to fix any error that occurs when reading the images manually. As we can see in the image, some colours won't be read properly. 
 To avoid problems in the next steps we have to manually correct any image that is unknown. To correct these mistakes you have to check your original pdf
 and assign the right name to the textures.
 
@@ -53,12 +53,12 @@ Result:
 
 ### Step 5) Translating the images
 
-The goal of our transformation will be to "print" the image digitally. What we want to achieve is a replica of using a printer to print an image onto a paper.
-What we are doing now is basically printing the images we prepared onto a paper with a specific texture(for example bonne/glossy with either 300/600 dpi).
+The goal of our transformation will be to "print/scan" the image digitally. We want to achieve a replica of using a printer to print/scan an image onto a paper.
+What we are doing now is basically printing and scanning the images we prepared onto a paper with a specific texture(for example bonne/glossy with either 300/600 dpi).
 
-To transform your images use the "translate_all_textures_NC.py" from this repository.
+To transform your images, use the "translate_all_textures_NC.py" command in this repository.
 
-It is very important to specify the paths to the textures you want to use, for that we are going to use a cfg.json in which we will specify our textures and their path. 
+It is very important to specify the paths to the textures you want to use; for that, we are going to use a cfg.json in which we will specify our textures and their path. 
 The JSON file contains one array, "texture_sources," in which you must insert the name of your texture and the path where it is saved. 
 
 
@@ -73,7 +73,7 @@ In the TranslateTexture class, you will find the "self.texture_dir", in which yo
 
 
 
-Now we have some options how the images will be translated:
+Now we have some options for how the images will be translated:
 
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/1dace6ca-cf4c-4d6d-a1cd-0b2b06f1ebd4)
