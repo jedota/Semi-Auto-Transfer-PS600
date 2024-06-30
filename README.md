@@ -9,7 +9,8 @@ The original pdf can be downloaded from here (available upon acceptance)
 <img width="458" alt="texture example" src="https://github.com/jedota/texture-ps-hda/assets/45126159/51992695-5ca3-4d0c-a026-563fddad3e57">
 
 
-### Step 2) Print and scan this pdf on glossy paper with 600 or 300 dpi. This new image includes the artefact from print and scan.
+### Step 2) Print and scan this pdf on glossy paper with 600 or 300 dpi. 
+This new image includes the artefact from print/scan.
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/15140247-ea72-4047-a94f-a3f70a20c084)
 
