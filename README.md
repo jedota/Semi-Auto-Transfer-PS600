@@ -34,7 +34,7 @@ and assign the right name to the textures.
 
 
 
-### Step 4) In order to isolate the texture, use the file isolate_texture.py and.....
+### Step 4) In order to isolate the texture, use the file isolate_texture.py
 
 Using the file Isolate_texture.py you must specify the input and output path, as well as the method to isolate the textures. 
 For this example we use the method "mean".
@@ -142,6 +142,7 @@ Now, the original images folder will be used to compare each FID.Score. Then you
 
 
 # Citation
+pending
 
 # Disclaimer
 This method is for research purposes only. For any questions, send an email to juan.tapia-farias@h-da.de
