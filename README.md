@@ -39,19 +39,14 @@ and assign the right name to the textures.
 ### Step 4) In order to isolate the texture, use the file isolate_texture.py
 
 Using the file Isolate_texture.py you must specify the input and output path, as well as the method to isolate the textures. 
-For this example we use the method "mean".
+For this example, we use the method "mean".
 
-Using our folder which contains the images we read in Step 3, we can now isolate the textures.
+We can isolate the textures using our folder, which contains the images we read in Step 3.
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/04d525c2-b1e8-4410-aa50-7ebc0a87aad3)
 
 Result:
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/143a8809-b2b6-46be-81ee-871405882595)
-
-
-
-![Scann-colors](https://github.com/jedota/texture-ps-hda/assets/45126159/1068e3c2-3524-45bf-ae69-3f79531b7ad4)
-
 
 ### Step 5) Translating the images
 
