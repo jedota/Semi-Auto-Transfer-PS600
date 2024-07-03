@@ -96,9 +96,11 @@ Original:
 
 B300:
 
-![alt-text-1][image](https://github.com/jedota/texture-ps-hda/assets/171809025/cb66a698-40fd-46e8-8a95-80ccea0f9e37)
-![alt-text-2][image](https://github.com/jedota/texture-ps-hda/assets/171809025/ff3d157b-c073-4ae4-a33d-04b0841569de)
-
+<p align="center">
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/cb66a698-40fd-46e8-8a95-80ccea0f9e37)
+&nbsp; &nbsp; &nbsp; &nbsp;
+![[image](https://github.com/jedota/texture-ps-hda/assets/171809025/ff3d157b-c073-4ae4-a33d-04b0841569de)
+<p>
 B600:
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/ff3d157b-c073-4ae4-a33d-04b0841569de)
