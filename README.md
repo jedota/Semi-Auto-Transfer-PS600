@@ -67,14 +67,14 @@ This is an example cfg.json:
 In the TranslateTexture class, you will find the "self.texture_dir", in which you have to insert the path to your cfg.json.
 
 
-![alt-text-1][image](https://github.com/jedota/texture-ps-hda/assets/171809025/98434cc4-75ea-45a8-b952-c1dc808adc96)
+![image](https://github.com/jedota/texture-ps-hda/assets/171809025/98434cc4-75ea-45a8-b952-c1dc808adc96)
 
 
 
 Now we have some options for how the images will be translated:
 
 
-![alt-text-1][image](https://github.com/jedota/texture-ps-hda/assets/171809025/1dace6ca-cf4c-4d6d-a1cd-0b2b06f1ebd4)
+![[image](https://github.com/jedota/texture-ps-hda/assets/171809025/1dace6ca-cf4c-4d6d-a1cd-0b2b06f1ebd4)
 
 
 
@@ -96,8 +96,8 @@ Original:
 
 B300:
 
-![image](https://github.com/jedota/texture-ps-hda/assets/171809025/cb66a698-40fd-46e8-8a95-80ccea0f9e37)
-
+![alt-text-1][image](https://github.com/jedota/texture-ps-hda/assets/171809025/cb66a698-40fd-46e8-8a95-80ccea0f9e37)
+![alt-text-2][image](https://github.com/jedota/texture-ps-hda/assets/171809025/ff3d157b-c073-4ae4-a33d-04b0841569de)
 
 B600:
 
