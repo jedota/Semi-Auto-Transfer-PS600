@@ -97,13 +97,10 @@ Original:
 B300:
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/cb66a698-40fd-46e8-8a95-80ccea0f9e37)
-&nbsp; &nbsp; &nbsp; &nbsp;
-![[image](https://github.com/jedota/texture-ps-hda/assets/171809025/ff3d157b-c073-4ae4-a33d-04b0841569de)
 
 B600:
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/ff3d157b-c073-4ae4-a33d-04b0841569de)
-
 
 
 G300:
