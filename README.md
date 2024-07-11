@@ -32,7 +32,7 @@ Result:
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/c40c1588-4fbc-4bfc-b96a-f4188c1b9213)
 
 It is important to fix any error that occurs when reading the images manually. As we can see in the image, some colours won't be read properly. 
-To avoid problems in the next steps we have to manually correct any image that is unknown. To correct these mistakes you have to check your original pdf
+To avoid problems in the next steps, we have to manually correct any unknown image. To correct these mistakes, you have to check your original pdf
 and assign the right name to the textures.
 
 
@@ -41,6 +41,9 @@ and assign the right name to the textures.
 
 Using the file Isolate_texture.py you must specify the input and output path, as well as the method to isolate the textures. 
 For this example, we use the method "mean".
+
+<span style="color:red">some **Texture available soon (available upon acceptance).** text</span>
+
 
 We can isolate the textures using our folder, which contains the images we read in Step 3.
 
