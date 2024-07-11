@@ -5,7 +5,8 @@ This scenario allows us to train in single and differential morphing Attacks.
 # The following steps must be followed:
 
 ### Step 1) Select 50 colour images and create a pdf.
-The original pdf can be downloaded from here (available upon acceptance)
+
+*****The original pdf can be downloaded from here (available upon acceptance)*****
 
 <img width="458" alt="texture example" src="https://github.com/jedota/texture-ps-hda/assets/45126159/51992695-5ca3-4d0c-a026-563fddad3e57">
 
@@ -42,7 +43,7 @@ and assign the right name to the textures.
 Using the file Isolate_texture.py you must specify the input and output path, as well as the method to isolate the textures. 
 For this example, we use the method "mean".
 
-<span style="color:red">some **Texture available soon (available upon acceptance).** text</span>
+*****The isolate texture can be downloaded from here (available upon acceptance)*****
 
 
 We can isolate the textures using our folder, which contains the images we read in Step 3.
