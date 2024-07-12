@@ -137,6 +137,10 @@ Now, the original images folder will be used to compare each FID Score. Then, yo
 
 ![image](https://github.com/jedota/texture-ps-hda/assets/171809025/79d67cb6-03a8-4df8-b229-6537f8af3d54)
 
+# Complentary model
+- A secondary GAN-based model texture transfer method was also developed.
+- Implementation is available at: [https://github.com/jedota/Semi-Auto-Transfer-PS600](https://github.com/jedota/Style-Transfer-PS600)
+
 # Citation
 pending
 
