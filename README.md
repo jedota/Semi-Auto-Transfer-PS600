@@ -139,7 +139,7 @@ Now, the original images folder will be used to compare each FID Score. Then, yo
 
 # Complentary model
 - A secondary GAN-based model texture transfer method was also developed.
-- Implementation is available at: [https://github.com/jedota/Semi-Auto-Transfer-PS600](https://github.com/jedota/Style-Transfer-PS600)
+- Implementation is available at: [https://github.com/jedota/Style-Transfer-PS600](https://github.com/jedota/Style-Transfer-PS600)
 
 # Citation
 
