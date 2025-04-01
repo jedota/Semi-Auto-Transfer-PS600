@@ -144,16 +144,15 @@ Now, the original images folder will be used to compare each FID Score. Then, yo
 # Citation
 
 ```
-@misc{tapia2024generatingautomaticallyprintscantextures,
-      title={Generating Automatically Print/Scan Textures for Morphing Attack Detection Applications}, 
-      author={Juan E. Tapia and Maximilian Russo and Christoph Busch},
-      year={2024},
-      eprint={2408.09558},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2408.09558}, 
-}
-
+@ARTICLE{10945320,
+  author={Tapia, Juan E. and Russo, Maximilian and Busch, Christoph},
+  journal={IEEE Access}, 
+  title={Generating Automatically Print/Scan Textures for Morphing Attack Detection Applications}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/ACCESS.2025.3555922}}
 ```
 
 # Disclaimer
