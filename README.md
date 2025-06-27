@@ -6,7 +6,7 @@ This scenario allows us to train in single and differential morphing Attacks.
 
 ### Step 1) Select 50 colour images and create a pdf.
 
-*****The original pdf can be downloaded from here (available upon acceptance)*****
+[Downloading](https://www.dropbox.com/scl/fo/thwhaekl18sgose21oece/AI3zBDAEm1rIzCLP2C6YTsc?rlkey=bf4mi08qbflzonh4hhhj5l1r3&st=jsbzzzi7&dl=0)
 
 <img width="458" alt="texture example" src="https://github.com/jedota/texture-ps-hda/assets/45126159/51992695-5ca3-4d0c-a026-563fddad3e57">
 
